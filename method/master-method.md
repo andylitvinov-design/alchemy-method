@@ -33,6 +33,42 @@ This transforms the method into:
 
 ---
 
+## Dynamic Remedy Relevance (Core Principle)
+
+Remedy relevance is not fixed.
+
+A remedy may:
+
+- strongly resonate at one stage
+- lose effect after a period
+- become irrelevant as the state changes
+- be replaced by another remedy that matches the new state
+
+This means:
+
+- remedies must be selected based on the current state, not static descriptions only;
+- remedy selection is dynamic;
+- regular review is required;
+- the same remedy may not be useful at the next level.
+
+Key implications:
+
+1. The method is state-based, not protocol-based.
+2. Remedy selection must be checked through resonance.
+3. Tracking response over time is critical.
+4. A weekly review can show whether the remedy is still active or a new remedy is needed.
+
+Cycle logic:
+
+- 1 week → check remedy effect and relevance
+- 1 month / 1 Dao cycle → review level movement and update support
+
+Core rule:
+
+state changes → remedy relevance changes
+
+---
+
 ## Integration With Core Method
 
 The Daoist Ladder integrates with:
@@ -43,6 +79,7 @@ The Daoist Ladder integrates with:
 - Psychodynamics → explains why compression exists
 - Homeopathy → supports transformation
 - Alchemy → gives transformation language
+- Dynamic Remedy Relevance → explains why support changes as the person changes
 
 ---
 
@@ -79,8 +116,10 @@ Metal — structure
 1. Identify level
 2. Identify mechanism
 3. Identify resource
-4. Apply correct intervention
-5. Define next level
+4. Check remedy/support resonance
+5. Apply correct intervention
+6. Track response
+7. Define next level
 
 ---
 
@@ -94,3 +133,5 @@ Product = movement between levels
 
 Wrong resource at wrong level = no movement
 Correct resource at correct level = transformation
+Static remedy use ignores change
+Dynamic remedy relevance follows real transformation
