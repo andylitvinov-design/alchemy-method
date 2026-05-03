@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "status": "canonical",
+  "repository": "andylitvinov-design/alchemy-method",
+  "purpose": "Machine-readable source registry for agents working with Andrey Li's method, reports, consultations, Dao scale, Wu Xing, and homeopathy materials.",
+  "rule": "Agents must use this registry before free-text search when the task concerns reports, method logic, consultations, Dao levels, Wu Xing, or homeopathy.",
+  "canonical_sources": {
+    "method_entry": {
+      "path": "START-HERE.md",
+      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/START-HERE.md"
+    },
+    "method_map": {
+      "path": "method-map.md",
+      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/method-map.md"
+    },
+    "master_method": {
+      "path": "method/master-method.md",
+      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/method/master-method.md"
+    },
+    "dao_resource_scale": {
+      "path": "method/dao-resource-scale.md",
+      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/method/dao-resource-scale.md"
+    }
+  },
+  "report_sources": {
+    "reports_index": {
+      "path": "consultations/reports-index.md",
+      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/consultations/reports-index.md",
+      "role": "navigation index for reports, live examples, and report templates"
+    },
+    "report_logic": {
+      "path": "consultations/report-logic.md",
+      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/consultations/report-logic.md",
+      "role": "method logic for client reports"
+    },
+    "primary_live_ru_client_report": {
+      "path": "consultations/examples/confidence-bach-report-example.md",
+      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/consultations/examples/confidence-bach-report-example.md",
+      "language": "ru",
+      "type": "live-style anonymized client report",
+      "role": "primary Russian client-facing tone and structure reference",
+      "search_aliases": [
+        "живой русский отчёт",
+        "русский клиентский отчёт",
+        "последний клиентский отчёт",
+        "confidence bach report",
+        "Крепость Королева У-Син",
+        "уверенность Бах низкая сила"
+      ]
+    }
+  },
+  "routing_rules": {
+    "russian_client_report": [
+      "consultations/reports-index.md",
+      "consultations/report-logic.md",
+      "consultations/examples/confidence-bach-report-example.md",
+      "method/dao-resource-scale.md"
+    ],
+    "when_asked_where_real_russian_report_is": {
+      "answer_path": "consultations/examples/confidence-bach-report-example.md",
+      "answer_url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/consultations/examples/confidence-bach-report-example.md",
+      "do_not_answer_with": "andrey-system/examples/sample-full-client-report.md"
+    }
+  },
+  "cross_repository_boundary": {
+    "alchemy-method": "method, consultations, live Russian report examples, Dao/Wu Xing/remedy logic",
+    "ai-projects-brain/andrey-system": "business packaging, agent instructions, project-ready runtime instructions, templates, structural samples"
+  },
+  "search_policy": {
+    "first": "Open this registry and exact paths from it.",
+    "second": "Open reports-index.md when the task concerns reports.",
+    "third": "Use search only if the registry does not contain the needed source.",
+    "never": "Do not rely only on keyword search for canonical report sources."
+  }
+}
