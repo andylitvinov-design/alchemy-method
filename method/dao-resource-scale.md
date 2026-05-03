@@ -79,7 +79,30 @@ Levels:
 
 ---
 
-## 3. Resource Ranges
+## 3. Dao Levels As Personal Mysteries
+
+Each Dao level is not only a resource state.
+
+Each next level is a developmental task that may feel like a heroic challenge for the person.
+
+The work is not only to improve health or energy. The work is to pass a personal mystery:
+
+- survive
+- thaw
+- gain strength
+- become the owner of the self
+- open to contact
+- learn to steer life
+- enjoy living
+- then move into love, money, success, mission, and Dao
+
+Main rule:
+
+each level has its own challenge, its own achievement, and its own final state.
+
+---
+
+## 4. Resource Ranges
 
 General resource map:
 
@@ -97,7 +120,7 @@ Operational interpretation:
 
 ---
 
-## 4. Cycle Logic
+## 5. Cycle Logic
 
 One Daoist Alchemy cycle usually means:
 
@@ -116,22 +139,28 @@ The goal is to move one level up and stabilize it.
 
 ---
 
-## 5. Stage 1 — Health Alchemy
+## 6. Stage 1 — Health Alchemy
 
 Stage 1 restores the basic body-health resource and the ability to stay alive, supported, warm, structured, and capable of first contact with the world.
+
+It is also a sequence of personality mysteries: from survival to the pleasure of living.
 
 ### Level 1 — Storm / Chaos
 
 Resource:
-1–2
+0–2 / 1–2
 
 State:
-- illness
+- extreme instability
+- illness or crisis
 - no support
 - no strength
 - chaos
 - energy collapses downward
-- the person cannot hold resource
+- person may feel between life and death
+
+Developmental challenge:
+Stabilization feels almost impossible.
 
 Main task:
 Give support.
@@ -142,6 +171,10 @@ Work focus:
 - holding
 - crisis stabilization
 - reduce collapse
+- first point of support
+
+Final state:
+"I can handle this. I can survive."
 
 Risk:
 Do not demand action or visibility. The system needs support first.
@@ -155,9 +188,15 @@ Resource:
 
 State:
 - frozen life
+- powerlessness
+- meaninglessness
 - resource is not active yet
 - resource no longer disappears completely
 - first point of balance appears
+- person may feel trapped behind the mirror / in a frozen world
+
+Developmental challenge:
+Returning energy and life can feel impossible.
 
 Main task:
 Give warmth.
@@ -167,7 +206,11 @@ Work focus:
 - gentle contact
 - warmth
 - softening freeze
-- first life response
+- awakening life response
+- strengthening the first resource
+
+Final state:
+"I live."
 
 Risk:
 Do not force strong expression. The system is still frozen.
@@ -181,9 +224,14 @@ Resource:
 
 State:
 - unstable resource
+- life happens in flashes
+- strength appears and disappears
 - first filling with strength
 - first glow of life
 - resource can be felt but is still soft
+
+Developmental challenge:
+Internal strength and stability feel difficult to obtain.
 
 Main task:
 Give structure.
@@ -193,6 +241,10 @@ Work focus:
 - organize resource
 - create rhythm
 - prevent resource leak
+- grow inner strength and support
+
+Final state:
+"I have strength."
 
 Risk:
 Do not overheat or overload. The flame is new and unstable.
@@ -205,48 +257,69 @@ Resource:
 3.0–3.5
 
 State:
+- support exists but is still unstable
 - first axis appears
+- personality fortress is maturing
 - person no longer falls so easily into deficit
-- first inner support
 - protective structure forms
+
+Developmental challenge:
+The challenge is to grow a stable Self and not lose support.
 
 Main task:
 Give manifestation.
 
 Work focus:
+- strengthen the Self
 - first expression
 - safe boundaries
 - visible presence
 - movement from inner support to outer form
+
+Final state:
+"I am the owner / master of myself."
+
+Transition:
+The person moves toward King / Queen level.
 
 Risk:
 Do not break the fortress. It is still needed for stability.
 
 ---
 
-### Level 5 — King / Queen
+### Level 5 — King / Queen / Queen In The Tower
 
 Resource:
 3.5–4.0
 
 State:
+- castle exists
+- self-expression appears
 - first impulses outward
 - filling space
-- self-expression
 - free will appears
 - identity becomes more visible
+- external contact may feel tense and challenging
+
+Developmental challenge:
+Opening to people and contact can feel like a major challenge.
 
 Main task:
-Give power.
+Give power and support heart opening.
 
 Work focus:
 - strengthen will
 - support self-expression
 - expand personal space
 - allow the person to take place
+- open the heart toward the world
+- soften fear of contact
+
+Final state:
+Joy of communication.
 
 Risk:
-Do not shame the emerging self. It is learning to occupy space.
+Do not shame the emerging self. It is learning to occupy space and open to others.
 
 ---
 
@@ -257,9 +330,12 @@ Resource:
 
 State:
 - strong enough core
-- can declare oneself
-- can adjust the world around oneself
-- may be slightly rigid or constrained
+- support, axis, and steering wheel exist
+- person can manage life and move the ship forward
+- may be rigid, sharp, or too controlled at first
+
+Developmental challenge:
+To become a fearless captain: firm inside, careful with boundaries, less harsh outside.
 
 Main task:
 Give softness.
@@ -269,7 +345,11 @@ Work focus:
 - less control
 - more trust
 - softer leadership
-- ability to navigate without stiffness
+- accurate boundaries
+- ability to steer life without stiffness
+
+Final state:
+"I manage my life."
 
 Risk:
 Do not remove structure too early. Soften it gradually.
@@ -282,10 +362,15 @@ Resource:
 4.5–5.0
 
 State:
+- enough strength for work and daily life
 - interest in contact with the world
 - curiosity
 - soft interaction
 - first movement toward relationship and exchange
+- pleasure of being in the world appears
+
+Developmental challenge:
+To move from mere functioning into enjoyment of life.
 
 Main task:
 Give courage.
@@ -295,13 +380,17 @@ Work focus:
 - curiosity
 - relational courage
 - movement toward the world
+- permission to enjoy life
+
+Final state:
+"I live, and it is pleasant to live."
 
 Risk:
 Do not push into large success yet. The person is just entering living contact.
 
 ---
 
-## 6. Stage 2 — Success Alchemy
+## 7. Stage 2 — Success Alchemy
 
 Stage 2 develops social manifestation, love, money, relationships, visibility, success, and the ability to share resource with the world.
 
@@ -463,7 +552,7 @@ Work focus:
 
 ---
 
-## 7. Stage 3 — Spirit Alchemy
+## 8. Stage 3 — Spirit Alchemy
 
 Stage 3 develops spiritual force, Dao connection, presence, mission, and alignment with larger reality.
 
@@ -558,7 +647,7 @@ Work focus:
 
 ---
 
-## 8. How To Use In Diagnosis
+## 9. How To Use In Diagnosis
 
 For each client, identify:
 
@@ -569,6 +658,8 @@ For each client, identify:
 5. Correct intervention.
 6. Next level.
 7. What must be stabilized.
+8. What developmental challenge feels like a heroic task.
+9. What final state is expected at the end of the level.
 
 Diagnostic summary format:
 
@@ -576,35 +667,40 @@ Current level:
 Stage:
 Resource range:
 Main state:
+Developmental challenge:
 What is missing:
 Correct support:
 Next level:
+Final state:
 One-month goal:
 
 ---
 
-## 9. How To Use In Reports
+## 10. How To Use In Reports
 
 Reports should include:
 
 - current Dao Resource level
 - explanation in client language
 - what this level means
+- what challenge this level asks the client to pass
 - next level
 - what support is needed
 - expected movement in one cycle
+- final state phrase
 
 Example:
 
 Current level: 3 — Prometheus, 2.5–3.0 resource.
-The first life force is appearing, but it is still unstable. The main task is not large action yet, but structure: rhythm, support, and stabilization of the first resource.
+The first life force is appearing, but it is still unstable. The person may live in flashes: strength appears and disappears. The main task is not large expansion yet, but structure: rhythm, support, and stabilization of the first resource.
 
 Next level: 4 — Fortress.
 Goal: create a first stable axis so the person does not fall back into deficit.
+Final state: "I have strength."
 
 ---
 
-## 10. How To Use In Products
+## 11. How To Use In Products
 
 The scale creates a product logic:
 
@@ -625,7 +721,7 @@ This work helps identify your current resource level and move one realistic step
 
 ---
 
-## 11. Main Rule
+## 12. Main Rule
 
 Do not give the wrong resource for the level.
 
@@ -641,4 +737,4 @@ Examples:
 
 Correct work means:
 
-identify level → give matching resource → move one level up → stabilize.
+identify level → give matching resource → pass the developmental mystery → move one level up → stabilize.
