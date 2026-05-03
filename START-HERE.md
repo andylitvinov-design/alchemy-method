@@ -8,17 +8,32 @@ For business packaging, offers, pricing, and landing pages, use `ai-projects-bra
 
 ---
 
+## Non-Negotiable First Step
+
+Before free-text search, read:
+
+1. `method-source-registry.json`
+2. `START-HERE.md`
+3. `method-map.md`
+
+Search is fallback, not the first step, when a canonical source exists in `method-source-registry.json`.
+
+If a user asks where a known method/report source is, answer from `method-source-registry.json` first.
+
+---
+
 ## Step 1 — Read Core Files
 
 Always start with:
 
-1. `method/master-method.md`
-2. `method-map.md`
-3. `quick-use.md`
+1. `method-source-registry.json`
+2. `method/master-method.md`
+3. `method-map.md`
+4. `quick-use.md`
 
 For business/product tasks also read:
 
-4. `integration-with-business-builder.md`
+5. `integration-with-business-builder.md`
 
 ---
 
@@ -34,6 +49,7 @@ Read:
 ### Client report / diagnosis
 
 Read in this order:
+- `method-source-registry.json`
 - `consultations/reports-index.md`
 - `consultations/report-logic.md`
 - `consultations/examples/confidence-bach-report-example.md`
@@ -119,4 +135,4 @@ For client-facing text:
 
 Do not invent the method. Use existing structures and extend carefully.
 
-If a needed file does not exist, say so and suggest creating it rather than pretending it exists.
+If a needed file does not exist, say which registry and exact paths were checked before suggesting creation or indexing.
