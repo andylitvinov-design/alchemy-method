@@ -33,10 +33,15 @@ Read:
 
 ### Client report / diagnosis
 
-Read:
+Read in this order:
+- `consultations/reports-index.md`
 - `consultations/report-logic.md`
 - `consultations/examples/confidence-bach-report-example.md`
 - `method/dao-resource-scale.md`
+
+Important:
+- `consultations/examples/confidence-bach-report-example.md` is the primary live Russian client report style reference.
+- Do not confuse it with English structural samples in `ai-projects-brain/andrey-system/examples/`.
 
 ### Session structure
 
