@@ -6,7 +6,41 @@ This is a method and educational framework. It does not replace medical, neurolo
 
 ---
 
-## 1. Express Diagnosis
+## 1. Client-Friendly Explanation
+
+Express neurodiagnosis analyzes the quality of work of the reticular formation (RF).
+
+The centers described in the Alchemy of the Soul materials are not random. Together, these life centers form a structure called the Reticular Formation.
+
+RF is located in the lower part of the brain, in the brainstem.
+
+In method language, RF can be understood as the foundation of the psyche — the "hardware" on which personality, consciousness, energy, and stability rely.
+
+RF has several floors, from bottom to top.
+
+The work of higher floors depends on the work of lower floors.
+
+This is similar to how the strength of personality and effectiveness of consciousness depend on the foundation.
+
+RF influences parameters such as:
+
+- clarity of consciousness
+- amount of energy
+- tension or relaxation
+- suppression or openness
+- ability to act
+- ability to switch states
+- body tone
+- stress mobilization
+- social engagement
+
+In therapy based on this neurophysiological model, the RF floors are worked through sequentially, using different methods, including body practices, homeopathy, and other supportive tools, usually starting from the lower floors.
+
+Express diagnosis helps understand which link is better to work with and how.
+
+---
+
+## 2. Express Diagnosis
 
 Express diagnosis includes analysis of:
 
@@ -21,7 +55,7 @@ Dao level → developmental task → neurophysiological foundation → body prac
 
 ---
 
-## 2. Purpose
+## 3. Purpose
 
 The goal of express diagnosis is to give the client:
 
@@ -33,7 +67,7 @@ The goal of express diagnosis is to give the client:
 
 ---
 
-## 3. How Client Sends Data
+## 4. How Client Sends Data
 
 Suggested client instruction:
 
@@ -52,7 +86,7 @@ Analysis output:
 
 ---
 
-## 4. General Parameters
+## 5. General Parameters
 
 Before analyzing reticular formation, include general parameters:
 
@@ -65,7 +99,7 @@ These show the global system state.
 
 ---
 
-## 5. Reticular Formation Analysis
+## 6. Reticular Formation Analysis
 
 The model analyzes the reticular formation as a foundation of psyche, arousal, survival, body tone, attention, and state switching.
 
@@ -289,7 +323,7 @@ Function in method language:
 
 ---
 
-## 6. Diagnostic Output Format
+## 7. Diagnostic Output Format
 
 Use this structure for the result:
 
@@ -322,7 +356,7 @@ Floor 6:
 
 ---
 
-## 7. Link With Dao Resource Ladder
+## 8. Link With Dao Resource Ladder
 
 Possible mapping:
 
@@ -335,7 +369,7 @@ This is only a working hypothesis and must be verified personally.
 
 ---
 
-## 8. Body Practice Logic
+## 9. Body Practice Logic
 
 Body support should match the weak link.
 
@@ -352,7 +386,7 @@ Do not prescribe intense practices to low-resource clients.
 
 ---
 
-## 9. Safety Boundary
+## 10. Safety Boundary
 
 This model is a symbolic, energetic, and educational diagnostic framework.
 
@@ -362,7 +396,7 @@ If the client has neurological, psychiatric, emergency, or serious medical sympt
 
 ---
 
-## 10. Main Rule
+## 11. Main Rule
 
 The neurodiagnostic model is used to identify the foundation of the psyche and choose gentle, level-matched body support.
 
