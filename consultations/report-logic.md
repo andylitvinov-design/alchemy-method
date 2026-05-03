@@ -1,356 +1,196 @@
 # Report Logic — Alchemy Method
 
-This file defines the basic logic for turning client intake and diagnosis into a clear client report.
-
-This is version 1. It should be improved after testing on real cases.
+This file defines the logic for turning diagnosis into a client report.
 
 ---
 
-## 1. Purpose
+## 1. Core Principle
 
-A report should translate the method into a useful client-facing document.
+A report must be clear, structured, and practical.
 
 It must show:
 
-- what is happening now
-- where the person is stuck
-- what hidden mechanism creates the state
-- what resource is missing
-- what Dao Resource level the person is on
-- what next level is realistic
-- what support is needed
-- what practical actions to take
-- what format of work is recommended next
-
-Core formula:
-
-client request → current state → hidden mechanism → resource level → next level → support plan → action/result
+- current state
+- Dao level
+- hidden mechanism
+- Wu Xing resource
+- main bottleneck
+- what to do now
+- what to expect
 
 ---
 
-## 2. Required Inputs
+## 2. Real Report Structure (Based On Practice)
 
-Before creating a report, collect or infer:
+### 1. Opening
 
-1. Client request
-2. Main area affected
-3. Current symptoms
-4. Repeating pattern
-5. Body/emotional signals
-6. Energy/clarity/confidence/action ratings, if available
-7. Wu Xing resource profile, if available
-8. Current Dao Resource level
-9. Desired result
-10. Previous attempts or supports
+Warm human tone.
 
-If important information is missing, ask only the minimum necessary follow-up questions.
+Example:
+
+Привет. Разбираюсь.
 
 ---
 
-## 3. Report Structure
+### 2. Context Setting
 
-Use this structure as the default report model.
+Explain method briefly:
 
-### 1. Client Request
+Работаем через Даосскую медицину и 5 стихий Усин.
 
-Write the request in simple client language.
+---
 
-Include:
-- what the client wants
-- what hurts or blocks them now
-- why it matters
+### 3. Dao Scale
 
-### 2. Current State
+Use 0–10 scale.
 
-Describe the visible state.
+- current level
+- interpretation
+- emotional tone
 
-Include:
-- energy
-- clarity
-- confidence
-- action capacity
-- body/emotional signals
-- business/money/relationship/health context when relevant
+---
 
-### 3. Main Hidden Mechanism
+### 4. Self + Goal Field
 
-Use the problem cycle:
+Analyze:
 
-Impulse → Compression → Defense → Repetition → Exhaustion
+- текущее состояние (Я)
+- поле цели
+
+This shows internal contradiction.
+
+---
+
+### 5. Dao Stage
+
+Identify stage:
+
+Example:
+Крепость → Королева
 
 Explain:
-- what impulse wants to move
-- where compression appears
-- what defense forms
-- how the pattern repeats
-- what exhaustion or symptom appears
 
-### 4. Dao Resource Level
-
-Identify:
-- stage
-- level
-- resource range
-- image/name of the level
-- meaning of the level
-- what resource is needed now
-
-Use `method/dao-resource-scale.md`.
-
-### 5. Wu Xing Resource Analysis
-
-Analyze the five resources:
-
-- Water — energy / base / safety
-- Wood — action / direction / growth
-- Fire — expression / visibility / contact
-- Earth — stability / support / grounding
-- Metal — clarity / value / boundaries
-
-Identify:
-- strongest element
-- weakest element
-- main bottleneck
-- what must be restored first
-
-### 6. Next Realistic Level
-
-Define the next level, not the ideal final state.
-
-Include:
-- current level
-- next level
-- what changes at the next level
-- what must be stabilized
-
-Main rule:
-
-Do not promise a jump. Move one level up and stabilize it.
-
-### 7. Support Plan
-
-Give a support plan based on the current level.
-
-Include:
-- psychological focus
-- resource focus
-- body/health focus, if relevant
-- business/money focus, if relevant
-- relational focus, if relevant
-- remedy/archetype/ritual/artifact support, if relevant and safe
-
-### 8. Practical Actions
-
-Give 2–5 concrete actions.
-
-Actions must match the current level.
-
-Examples:
-- Level 1 needs support, not big goals.
-- Level 2 needs warmth, not pressure.
-- Level 3 needs structure, not expansion.
-- Level 4 needs safe manifestation.
-- Level 6 needs softness, not more control.
-
-### 9. Forecast
-
-Explain what can change first and what may take longer.
-
-Include:
-- expected early shifts
-- possible resistance
-- what to track
-
-Avoid guaranteed medical or financial outcomes.
-
-### 10. Recommended Next Step
-
-Recommend the right format:
-
-- express diagnosis
-- extended report
-- monthly support
-- business resource analysis
-- personal resource strategy
-- deep transformation
-
-Explain why this format fits.
+- что происходит
+- чего не хватает
+- куда идти
 
 ---
 
-## 4. Dao Level Translation For Reports
+### 6. Wu Xing Analysis
 
-Use client-friendly explanations.
+For each element:
 
-### Stage 1 — Health Alchemy
+- numeric value
+- emotional/behavioral expression
 
-Focus:
-restore body, base energy, support, warmth, structure, and first movement.
-
-Typical report language:
-
-"At this stage, the priority is not to force big external success. The system first needs support, warmth, structure, and stable resource."
-
-### Stage 2 — Success Alchemy
-
-Focus:
-relationships, money, visibility, social manifestation, sharing resource.
-
-Typical report language:
-
-"At this stage, the resource is already strong enough to begin sharing with the world. The task is to build flow, relationships, money movement, and confident expression."
-
-### Stage 3 — Spirit Alchemy
-
-Focus:
-mission, Dao connection, presence, transmission, spiritual alignment.
-
-Typical report language:
-
-"At this stage, the work becomes less about personal survival or success and more about alignment with a larger current, presence, mission, and transmission."
+Water / Wood / Fire / Earth / Metal
 
 ---
 
-## 5. Level-Based Intervention Rule
+### 7. Conclusion
 
-The report must always match intervention to level.
+Simple language:
 
-Wrong example:
-
-A Level 2 client is told to become visible, sell widely, and scale business.
-
-Correct example:
-
-A Level 2 client is told to restore warmth, safety, and first life response before external expansion.
-
-Core rule:
-
-wrong resource at wrong level = resistance or regression
-correct resource at correct level = movement
+- где сейчас человек
+- что это значит
 
 ---
 
-## 6. Minimal Report Template
+### 8. Tasks
 
-Use this for short diagnostics.
+Clear bullet points:
 
-```md
-# Short Diagnostic Report
-
-## Request
-
-## Current State
-
-## Hidden Mechanism
-
-Impulse:
-Compression:
-Defense:
-Repetition:
-Exhaustion:
-
-## Dao Resource Level
-
-Stage:
-Level:
-Resource range:
-Meaning:
-Needed support:
-
-## Wu Xing Resource
-
-Water:
-Wood:
-Fire:
-Earth:
-Metal:
-Main bottleneck:
-
-## Next Level
-
-Current level:
-Next level:
-One-month goal:
-
-## Practical Actions
-
-1.
-2.
-3.
-
-## Recommended Next Step
-```
+- что усиливать
+- какой элемент
+- зачем
 
 ---
 
-## 7. Extended Report Template
+### 9. Remedy / Support Block
 
-Use this for deeper paid reports.
+Structure:
 
-```md
-# Extended Diagnostic Report
-
-## 1. Client Request
-
-## 2. Current State Summary
-
-## 3. Visible Symptoms
-
-## 4. Hidden Mechanism
-
-## 5. Psychodynamic Layer
-
-## 6. Dao Resource Level
-
-## 7. Wu Xing Resource Analysis
-
-## 8. Main Block
-
-## 9. Next Realistic Level
-
-## 10. Support Plan
-
-## 11. Remedies / Archetypes / Tools
-
-## 12. Practical Actions
-
-## 13. Forecast And Tracking
-
-## 14. Recommended Next Step
-```
+- type (Bach / Homeopathy / etc)
+- 2–3 items
+- meaning of each
 
 ---
 
-## 8. Report Quality Check
+### 10. Combination Meaning
 
-Before finalizing a report, check:
+Explain:
 
-- Is the client request clear?
-- Is the current state described simply?
-- Is the hidden mechanism visible?
-- Is the Dao level identified?
-- Is the next level realistic?
-- Is the intervention matched to the level?
-- Is Wu Xing resource included when relevant?
-- Are there practical actions?
-- Is there a next step?
-- Is the language safe?
-- Are there no medical or financial guarantees?
+- что говорит набор
+- какая психика
 
 ---
 
-## 9. Safety Language
+### 11. Instructions
 
-Use when needed:
-
-This report is not a medical diagnosis and does not replace medical, psychological, psychiatric, legal, or financial care. It is a resource and meaning map intended to support clarity, self-understanding, and practical next steps.
+- как принимать
+- формат
+- безопасные формулировки
 
 ---
 
-## 10. Main Rule
+### 12. Timing
 
-A good report does not overwhelm the client.
+- когда эффект
+- когда стабилизация
 
-It gives:
+---
 
-clarity → level → resource → next step
+### 13. Next Checkpoint
+
+- когда повтор
+- что будем смотреть
+
+---
+
+### 14. Closing Questions
+
+Very important:
+
+- всё ли понятно
+- есть ли вопросы
+- есть ли доступ к препаратам
+
+---
+
+## 3. Key Pattern
+
+request → Dao scale → stage → Wu Xing → bottleneck → support → tracking
+
+---
+
+## 4. Style Rules
+
+- simple language
+- no overload
+- warm tone
+- structured
+- practical
+
+---
+
+## 5. Main Rule
+
+A report must give:
+
+clarity → next step → movement
+
+---
+
+## 6. Practical Insight (From Real Reports)
+
+Real reports show:
+
+- conversational tone increases trust
+- numbers (Dao, Wu Xing) increase clarity
+- archetypal stage gives meaning
+- short bullet tasks increase action
+- remedy explanation increases belief
+- timeline gives expectation
+- follow-up creates process
+
+This structure must be preserved in all future reports
