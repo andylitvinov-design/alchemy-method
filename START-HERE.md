@@ -1,138 +1,116 @@
 # START HERE — Alchemy Method
 
-This file is the entry point for any agent working with Andrey Li's method library.
+This is the agent entry point for Andrey Li's Alchemy Method knowledge system.
 
-Use this repository for method logic, diagnostics, reports, homeopathy, Dao levels, neurodiagnostics, session structure, and practice materials.
-
-For business packaging, offers, pricing, and landing pages, use `ai-projects-brain/andrey-system` together with this repository.
-
----
-
-## Non-Negotiable First Step
+## Mandatory reading order
 
 Before free-text search, read:
 
-1. `method-source-registry.json`
-2. `START-HERE.md`
-3. `method-map.md`
+1. `KNOWLEDGE-HUB.md` — human-readable navigation
+2. `method-source-registry.json` — machine-readable source and repository registry
+3. `governance/REPOSITORY-SYNC-CONTRACT.md` — where each type of material belongs
+4. `method/master-method.md` — canonical method logic
+5. `method-map.md` — detailed routing
 
-Search is fallback, not the first step, when a canonical source exists in `method-source-registry.json`.
+Search is a fallback. Do not use a search result as canonical merely because it is easy to find.
 
-If a user asks where a known method/report source is, answer from `method-source-registry.json` first.
+## Repository boundary
 
----
+- `alchemy-method` — canonical knowledge and product specifications
+- `alchemy` — client application, report builder, tests, portal prototype
+- `alchemy_site` — public landing implementation
+- `books` — manuscripts, illustrations, and exports
+- `dao-usin-bach-report-kit` — report rendering
+- `ai-projects-brain` — commercial packaging and prioritization
 
-## Step 1 — Read Core Files
+Read `governance/REPOSITORY-SYNC-CONTRACT.md` before creating or moving files across repositories.
 
-Always start with:
+## Route by task
 
-1. `method-source-registry.json`
-2. `method/master-method.md`
-3. `method-map.md`
-4. `quick-use.md`
-
-For business/product tasks also read:
-
-5. `integration-with-business-builder.md`
-
----
-
-## Step 2 — Route By Task
-
-### Dao levels / resource scale
-
-Read:
+### Understand the full method
+- `method/master-method.md`
 - `method/dao-resource-scale.md`
-- `books/alchemy-of-the-soul/dao-level-images.md`
-- `method/dao-level-profile-template.md`
+- `method/wu-xing.md`
+- `consultations/session-structure.md`
 
-### Client report / diagnosis
+### Psycho-homeopathy / Alchemy of the Soul
+- `products/psycho-homeopathy-monthly.md`
+- `products/alchemy-of-the-soul-offer.md`
+- `consultations/personality-structure-diagnosis.md`
+- `consultations/express-homeopathy-diagnosis.md`
+- `homeopathy/homeopathic-remedy-profile-template.md`
 
-Read in this order:
-- `method-source-registry.json`
+### Daoist Alchemy
+- `products/daoist-alchemy-monthly.md`
+- `books/alchemy-of-the-soul/daoist-alchemy-health-levels.md`
+- `books/alchemy-of-the-soul/core-principles.md`
+- `method/dao-resource-scale.md`
+- `method/wu-xing.md`
+
+### Business support
+- `products/business-support-monthly.md`
+- `consultations/session-structure.md`
+- `products/landing-services-integrated-reference.md`
+
+### Client report or diagnosis
+Read in order:
 - `consultations/reports-index.md`
 - `consultations/report-logic.md`
 - `consultations/examples/confidence-bach-report-example.md`
-- `method/dao-resource-scale.md`
+- relevant method and product files
 
-Important:
-- `consultations/examples/confidence-bach-report-example.md` is the primary live Russian client report style reference.
-- Do not confuse it with English structural samples in `ai-projects-brain/andrey-system/examples/`.
+### Landing
+- `products/client-landing-master-spec.md`
+- all three monthly product specifications
+- `products/landing-services-integrated-reference.md`
 
-### Session structure
+Implementation belongs in `alchemy_site`.
 
-Read:
+### Client portal, tests, and Homeopath-style application
+- `portal/CLIENT-PORTAL-ROADMAP.md`
+- `portal/PORTAL-KNOWLEDGE-CONTRACT.md` when present
 - `consultations/session-structure.md`
 - `consultations/report-logic.md`
 
-### Express neurodiagnostics / RF / Gates
+Implementation belongs in `alchemy` unless the owner explicitly chooses a new portal repository.
 
-Read:
-- `consultations/express-neurodiagnostics.md`
-- `consultations/neurovegetative-restoration-algorithm.md`
+### Books and long-form educational materials
+Use indexed files inside `books/alchemy-of-the-soul/` as source summaries. Publishing assets belong in the separate `books` repository.
 
-### Homeopathy diagnosis
+## Core method chain
 
-Read:
-- `consultations/express-homeopathy-diagnosis.md`
-- `homeopathy/homeopathic-remedy-profile-template.md`
-- `method/master-method.md` section: Dynamic Remedy Relevance
+client request → current state → hidden mechanism / stress subpersonality → Dao level → Wu Xing resource → correction → remedy/support resonance → practical action → tracking → next step
 
-### Bach essences
+## Output rules
 
-Read:
-- `homeopathy/bach-essence-profile-template.md`
+Every professional case output should include:
 
-### Personality structure
-
-Read:
-- `consultations/personality-structure-diagnosis.md`
-
-### Product / offer / landing source
-
-Read:
-- `products/alchemy-of-the-soul-offer.md`
-- `products/landing-services-integrated-reference.md`
-- `integration-with-business-builder.md`
-
-### Source materials / books
-
-Read:
-- `books/README.md`
-- relevant file inside `books/`
-
----
-
-## Step 3 — Apply The Method
-
-Use this core chain:
-
-client request → current state → Dao level → Wu Xing resource → RF/Gates/personality layer if relevant → remedy/support resonance → report/session/product output
-
----
-
-## Step 4 — Output Rules
-
-Every output must include:
-
+- request
 - current state
 - hidden mechanism or bottleneck
-- resource level
-- next realistic level
-- correct support for that level
-- practical next step
+- resource level when relevant
+- Wu Xing state when relevant
+- selected correction/support
+- practical action
+- what to track
+- review date or next step
 
 For client-facing text:
 
-- keep language simple
-- avoid overload
-- avoid medical guarantees
-- use depth inside, simplicity outside
+- use simple language
+- present the problem and process before methods
+- avoid overload and medical guarantees
+- distinguish screening from diagnosis
+- treat AI output as a draft until practitioner review
 
----
+## New-material rule
 
-## Rule
+For every new repository, PDF, Telegram post, test, book chapter, landing, or external source:
 
-Do not invent the method. Use existing structures and extend carefully.
+1. register it in `method-source-registry.json`
+2. link it in `KNOWLEDGE-HUB.md`
+3. classify it as canonical, supporting, historical, or experimental
+4. record contradictions in `governance/SOURCE-CONFLICTS.md`
+5. update downstream implementations only after the canonical source is approved
 
-If a needed file does not exist, say which registry and exact paths were checked before suggesting creation or indexing.
+Do not invent the method or silently reconcile contradictions.
