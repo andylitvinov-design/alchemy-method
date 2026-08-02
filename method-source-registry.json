@@ -1,8 +1,8 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "status": "canonical",
   "repository": "andylitvinov-design/alchemy-method",
-  "purpose": "Machine-readable registry for the Alchemy Method knowledge system, products, reports, books, sites, tests, and client portal.",
+  "purpose": "Machine-readable registry for the Alchemy Method knowledge system, products, reports, books, Homeopath workflow, PsiTherapy client portal, tests, and client delivery.",
   "rule": "Open this registry and KNOWLEDGE-HUB.md before free-text search. Canonical method definitions live only in alchemy-method.",
   "entrypoints": {
     "human_navigation": "KNOWLEDGE-HUB.md",
@@ -10,22 +10,34 @@
     "machine_registry": "method-source-registry.json",
     "repository_sync_contract": "governance/REPOSITORY-SYNC-CONTRACT.md",
     "risk_audit": "governance/RISKS-OPPORTUNITIES-AUDIT.md",
-    "agent_instructions": "governance/AGENT-INSTRUCTIONS.md"
+    "agent_instructions": "governance/AGENT-INSTRUCTIONS.md",
+    "psitherapy_homeopath_integration": "portal/PSITHERAPY-HOMEOPATH-INTEGRATION.md"
   },
   "repository_roles": {
     "andylitvinov-design/alchemy-method": {
-      "role": "canonical-knowledge",
-      "contains": ["method definitions", "diagnostics", "session logic", "product specifications", "report logic", "source indexes", "agent instructions"],
+      "role": "canonical-method-knowledge",
+      "contains": ["method definitions", "diagnostics", "session logic", "product specifications", "report interpretation logic", "source indexes", "agent instructions"],
       "must_not_contain": ["identified client records", "site runtime code", "book export binaries"]
     },
+    "andylitvinov-design/report": {
+      "role": "psitherapy-client-portal-and-report-product",
+      "live_url": "https://psitherapy.vercel.app/",
+      "contains": ["React/Vite client portal", "report UI", "beautiful report design", "client cabinet", "questionnaire flows", "PDF export", "Supabase auth", "runtime implementation"],
+      "source_of_method_truth": false
+    },
+    "andylitvinov-design/ai-projects-brain": {
+      "role": "business-project-memory-and-agent-standards",
+      "contains": ["PsiTherapy project registry", "offer packaging", "pricing", "prioritization", "report-agent instructions", "report quality standards"],
+      "source_of_method_truth": false
+    },
     "andylitvinov-design/alchemy": {
-      "role": "client-application-prototype",
+      "role": "historical-client-application-prototype",
       "contains": ["structured case model", "report builder prototype", "client portal experiments", "test and report UI prototypes"],
       "source_of_method_truth": false
     },
     "andylitvinov-design/alchemy_site": {
-      "role": "public-site-and-landing",
-      "contains": ["landing implementation", "public pages", "conversion flow"],
+      "role": "legacy-public-site-shell",
+      "contains": ["older landing implementation", "public HTML pages", "conversion flow experiments"],
       "source_of_copy_truth": false
     },
     "andylitvinov-design/alchemist": {
@@ -39,13 +51,8 @@
       "source_of_method_truth": false
     },
     "andylitvinov-design/dao-usin-bach-report-kit": {
-      "role": "report-rendering-kit",
+      "role": "supporting-report-rendering-kit",
       "contains": ["report templates", "rendering and delivery helpers"],
-      "source_of_method_truth": false
-    },
-    "andylitvinov-design/ai-projects-brain": {
-      "role": "business-packaging",
-      "contains": ["offer packaging", "pricing", "prioritization", "commercial experiments"],
       "source_of_method_truth": false
     },
     "andylitvinov-design/psitrends-work": {
@@ -53,13 +60,17 @@
       "contains": ["Psitrends editorial materials", "site-oriented work"],
       "source_of_method_truth": false
     },
-    "andylitvinov-design/report": {
-      "role": "legacy-report-project",
-      "status": "inventory-required"
-    },
     "andylitvinov-design/artefacts": {
       "role": "artifact-library",
       "status": "supporting-private"
+    }
+  },
+  "non_repository_projects": {
+    "Homeopath": {
+      "type": "ChatGPT project / practitioner workflow",
+      "role": "accept practitioner-entered client Wu Xing, Dao, remedy, and state values; draft a structured client report using canonical method logic",
+      "source_of_method_truth": false,
+      "requirements": ["preserve entered values", "mark uncertainty", "require practitioner approval", "do not generate autonomous medical diagnosis"]
     }
   },
   "canonical_sources": {
@@ -91,15 +102,45 @@
     "dao_level_images": "books/alchemy-of-the-soul/dao-level-images.md",
     "uploaded_manual_reference": "Homeotherapy1.pdf supplied in ChatGPT conversation; index as external source, not repository file"
   },
+  "psitherapy": {
+    "live_url": "https://psitherapy.vercel.app/",
+    "canonical_implementation_repository": "andylitvinov-design/report",
+    "framework": "Vite + React",
+    "project_memory": [
+      "ai-projects-brain/projects/psitherapy/PROJECT.md",
+      "ai-projects-brain/projects/psitherapy/SYSTEM_MAP.md",
+      "ai-projects-brain/projects/psitherapy/DATA_SCHEMA.md",
+      "ai-projects-brain/projects/psitherapy/CODEX_BRIEF.md",
+      "ai-projects-brain/projects/psitherapy/RISKS.md"
+    ],
+    "report_design_sources": [
+      "report/docs/design-references/reports/report-page-2-brief.md",
+      "report/docs/design-references/reports/sample-report-data.json",
+      "report/docs/design-references/reports/report-page-2-reference-small.base64.txt",
+      "report/docs/design-references/reports/codex-prompt.md",
+      "report/docs/client-cabinet/DESIGN_SOURCE_OF_TRUTH.md",
+      "report/docs/client-cabinet/MOCKUP_IMPLEMENTATION_MAP.md",
+      "report/docs/client-cabinet/VISUAL_QA_CHECKLIST.md"
+    ]
+  },
+  "report_agent_sources": {
+    "instructions": "ai-projects-brain/andrey-system/agent/report-agent-instructions.md",
+    "playbook": "ai-projects-brain/andrey-system/agent/report-agent-playbook.md",
+    "style_auditor": "ai-projects-brain/andrey-system/agent/report-style-auditor-instructions.md",
+    "diagnosis_matrix": "ai-projects-brain/andrey-system/core/report-diagnosis-matrix.md",
+    "homeopathy_decoder_example": "ai-projects-brain/andrey-system/examples/sample-homeopathy-decoder.md"
+  },
   "client_portal": {
     "architecture": "portal/CLIENT-PORTAL-ROADMAP.md",
     "knowledge_contract": "portal/PORTAL-KNOWLEDGE-CONTRACT.md",
-    "implementation_repository": "andylitvinov-design/alchemy",
-    "public_site_repository": "andylitvinov-design/alchemy_site",
+    "psitherapy_homeopath_integration": "portal/PSITHERAPY-HOMEOPATH-INTEGRATION.md",
+    "implementation_repository": "andylitvinov-design/report",
+    "historical_prototype_repository": "andylitvinov-design/alchemy",
     "future_modules": ["onboarding", "psychological tests", "Dao/Wu Xing tests", "case timeline", "session reports", "support plan", "progress tracking", "safe messaging"]
   },
   "public_links": {
     "website": "https://psitrends.com/",
+    "psitherapy": "https://psitherapy.vercel.app/",
     "psychic_alchemy": "https://t.me/psychic_alchemy",
     "dao_magic": "https://t.me/daomagic",
     "contact": "https://t.me/AndyTherapist",
@@ -109,9 +150,12 @@
   },
   "source_priority": [
     "latest explicit owner decision",
+    "current practitioner-entered client values in Homeopath",
     "method-source-registry.json",
     "canonical method and consultation files",
     "canonical product specifications",
+    "report-agent standards in ai-projects-brain",
+    "visual and runtime implementation in report",
     "indexed book/source summaries",
     "public Telegram source posts",
     "old PDFs, landings, archives, and experimental repositories"
@@ -121,6 +165,6 @@
     "second": "Follow the exact canonical path for the task.",
     "third": "Search supporting repositories only when the canonical source is insufficient.",
     "conflicts": "Record contradictions in governance/SOURCE-CONFLICTS.md; never silently merge them.",
-    "new_material": "Register every new repository, PDF, Telegram post, test, landing, or book source before using it as canonical."
+    "new_material": "Register every new repository, ChatGPT project, PDF, Telegram post, test, landing, report design, or book source before using it as canonical."
   }
 }
