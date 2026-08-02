@@ -1,75 +1,126 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "status": "canonical",
   "repository": "andylitvinov-design/alchemy-method",
-  "purpose": "Machine-readable source registry for agents working with Andrey Li's method, reports, consultations, Dao scale, Wu Xing, and homeopathy materials.",
-  "rule": "Agents must use this registry before free-text search when the task concerns reports, method logic, consultations, Dao levels, Wu Xing, or homeopathy.",
+  "purpose": "Machine-readable registry for the Alchemy Method knowledge system, products, reports, books, sites, tests, and client portal.",
+  "rule": "Open this registry and KNOWLEDGE-HUB.md before free-text search. Canonical method definitions live only in alchemy-method.",
+  "entrypoints": {
+    "human_navigation": "KNOWLEDGE-HUB.md",
+    "agent_navigation": "START-HERE.md",
+    "machine_registry": "method-source-registry.json",
+    "repository_sync_contract": "governance/REPOSITORY-SYNC-CONTRACT.md",
+    "risk_audit": "governance/RISKS-OPPORTUNITIES-AUDIT.md",
+    "agent_instructions": "governance/AGENT-INSTRUCTIONS.md"
+  },
+  "repository_roles": {
+    "andylitvinov-design/alchemy-method": {
+      "role": "canonical-knowledge",
+      "contains": ["method definitions", "diagnostics", "session logic", "product specifications", "report logic", "source indexes", "agent instructions"],
+      "must_not_contain": ["identified client records", "site runtime code", "book export binaries"]
+    },
+    "andylitvinov-design/alchemy": {
+      "role": "client-application-prototype",
+      "contains": ["structured case model", "report builder prototype", "client portal experiments", "test and report UI prototypes"],
+      "source_of_method_truth": false
+    },
+    "andylitvinov-design/alchemy_site": {
+      "role": "public-site-and-landing",
+      "contains": ["landing implementation", "public pages", "conversion flow"],
+      "source_of_copy_truth": false
+    },
+    "andylitvinov-design/alchemist": {
+      "role": "legacy-consolidation-shell",
+      "contains": ["historical consolidation notes"],
+      "status": "non-canonical-until-migrated"
+    },
+    "andylitvinov-design/books": {
+      "role": "publishing-and-long-form",
+      "contains": ["manuscripts", "illustrations", "PDF and book exports", "long-form chapters"],
+      "source_of_method_truth": false
+    },
+    "andylitvinov-design/dao-usin-bach-report-kit": {
+      "role": "report-rendering-kit",
+      "contains": ["report templates", "rendering and delivery helpers"],
+      "source_of_method_truth": false
+    },
+    "andylitvinov-design/ai-projects-brain": {
+      "role": "business-packaging",
+      "contains": ["offer packaging", "pricing", "prioritization", "commercial experiments"],
+      "source_of_method_truth": false
+    },
+    "andylitvinov-design/psitrends-work": {
+      "role": "psitrends-editorial-and-site-work",
+      "contains": ["Psitrends editorial materials", "site-oriented work"],
+      "source_of_method_truth": false
+    },
+    "andylitvinov-design/report": {
+      "role": "legacy-report-project",
+      "status": "inventory-required"
+    },
+    "andylitvinov-design/artefacts": {
+      "role": "artifact-library",
+      "status": "supporting-private"
+    }
+  },
   "canonical_sources": {
-    "method_entry": {
-      "path": "START-HERE.md",
-      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/START-HERE.md"
-    },
-    "method_map": {
-      "path": "method-map.md",
-      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/method-map.md"
-    },
-    "master_method": {
-      "path": "method/master-method.md",
-      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/method/master-method.md"
-    },
-    "dao_resource_scale": {
-      "path": "method/dao-resource-scale.md",
-      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/method/dao-resource-scale.md"
-    }
+    "method_map": "method-map.md",
+    "master_method": "method/master-method.md",
+    "dao_resource_scale": "method/dao-resource-scale.md",
+    "dao_level_profile": "method/dao-level-profile-template.md",
+    "wu_xing": "method/wu-xing.md",
+    "session_structure": "consultations/session-structure.md",
+    "report_logic": "consultations/report-logic.md",
+    "reports_index": "consultations/reports-index.md",
+    "personality_structure": "consultations/personality-structure-diagnosis.md",
+    "express_homeopathy": "consultations/express-homeopathy-diagnosis.md",
+    "homeopathic_profile": "homeopathy/homeopathic-remedy-profile-template.md",
+    "bach_profile": "homeopathy/bach-essence-profile-template.md"
   },
-  "report_sources": {
-    "reports_index": {
-      "path": "consultations/reports-index.md",
-      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/consultations/reports-index.md",
-      "role": "navigation index for reports, live examples, and report templates"
-    },
-    "report_logic": {
-      "path": "consultations/report-logic.md",
-      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/consultations/report-logic.md",
-      "role": "method logic for client reports"
-    },
-    "primary_live_ru_client_report": {
-      "path": "consultations/examples/confidence-bach-report-example.md",
-      "url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/consultations/examples/confidence-bach-report-example.md",
-      "language": "ru",
-      "type": "live-style anonymized client report",
-      "role": "primary Russian client-facing tone and structure reference",
-      "search_aliases": [
-        "живой русский отчёт",
-        "русский клиентский отчёт",
-        "последний клиентский отчёт",
-        "confidence bach report",
-        "Крепость Королева У-Син",
-        "уверенность Бах низкая сила"
-      ]
-    }
+  "product_sources": {
+    "alchemy_of_the_soul": "products/alchemy-of-the-soul-offer.md",
+    "psycho_homeopathy_monthly": "products/psycho-homeopathy-monthly.md",
+    "daoist_alchemy_monthly": "products/daoist-alchemy-monthly.md",
+    "business_support_monthly": "products/business-support-monthly.md",
+    "landing_master_spec": "products/client-landing-master-spec.md",
+    "integrated_landing_reference": "products/landing-services-integrated-reference.md"
   },
-  "routing_rules": {
-    "russian_client_report": [
-      "consultations/reports-index.md",
-      "consultations/report-logic.md",
-      "consultations/examples/confidence-bach-report-example.md",
-      "method/dao-resource-scale.md"
-    ],
-    "when_asked_where_real_russian_report_is": {
-      "answer_path": "consultations/examples/confidence-bach-report-example.md",
-      "answer_url": "https://github.com/andylitvinov-design/alchemy-method/blob/main/consultations/examples/confidence-bach-report-example.md",
-      "do_not_answer_with": "andrey-system/examples/sample-full-client-report.md"
-    }
+  "book_and_source_materials": {
+    "alchemy_of_the_soul_index": "books/alchemy-of-the-soul/source-index.md",
+    "daoist_health_levels": "books/alchemy-of-the-soul/daoist-alchemy-health-levels.md",
+    "dao_core_principles": "books/alchemy-of-the-soul/core-principles.md",
+    "dao_level_images": "books/alchemy-of-the-soul/dao-level-images.md",
+    "uploaded_manual_reference": "Homeotherapy1.pdf supplied in ChatGPT conversation; index as external source, not repository file"
   },
-  "cross_repository_boundary": {
-    "alchemy-method": "method, consultations, live Russian report examples, Dao/Wu Xing/remedy logic",
-    "ai-projects-brain/andrey-system": "business packaging, agent instructions, project-ready runtime instructions, templates, structural samples"
+  "client_portal": {
+    "architecture": "portal/CLIENT-PORTAL-ROADMAP.md",
+    "knowledge_contract": "portal/PORTAL-KNOWLEDGE-CONTRACT.md",
+    "implementation_repository": "andylitvinov-design/alchemy",
+    "public_site_repository": "andylitvinov-design/alchemy_site",
+    "future_modules": ["onboarding", "psychological tests", "Dao/Wu Xing tests", "case timeline", "session reports", "support plan", "progress tracking", "safe messaging"]
   },
+  "public_links": {
+    "website": "https://psitrends.com/",
+    "psychic_alchemy": "https://t.me/psychic_alchemy",
+    "dao_magic": "https://t.me/daomagic",
+    "contact": "https://t.me/AndyTherapist",
+    "dao_stages": "https://t.me/daomagic/170",
+    "dao_levels": "https://t.me/daomagic/131",
+    "dao_test_1_4": "https://t.me/daomagic/93"
+  },
+  "source_priority": [
+    "latest explicit owner decision",
+    "method-source-registry.json",
+    "canonical method and consultation files",
+    "canonical product specifications",
+    "indexed book/source summaries",
+    "public Telegram source posts",
+    "old PDFs, landings, archives, and experimental repositories"
+  ],
   "search_policy": {
-    "first": "Open this registry and exact paths from it.",
-    "second": "Open reports-index.md when the task concerns reports.",
-    "third": "Use search only if the registry does not contain the needed source.",
-    "never": "Do not rely only on keyword search for canonical report sources."
+    "first": "Open KNOWLEDGE-HUB.md and this registry.",
+    "second": "Follow the exact canonical path for the task.",
+    "third": "Search supporting repositories only when the canonical source is insufficient.",
+    "conflicts": "Record contradictions in governance/SOURCE-CONFLICTS.md; never silently merge them.",
+    "new_material": "Register every new repository, PDF, Telegram post, test, landing, or book source before using it as canonical."
   }
 }
