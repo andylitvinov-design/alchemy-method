@@ -1,108 +1,119 @@
 # Alchemy Method
 
-Method library for Andrey Li's therapeutic, homeopathic, alchemical, Wu Xing, consultation, report, neurodiagnostic, and practice materials.
+Canonical method library for Andrey Li's Alchemy system: Daoist Alchemy, psycho-homeopathy / Alchemy of the Soul, Wu Xing, consultations, reports, product specifications, and client-facing method language.
 
-This repository is for the method itself, not for general project management.
+This repository is the source of truth for method logic. Applications, sites, books, report renderers, and business packaging consume this repository; they do not redefine the method.
 
 ---
 
 ## Start Here
 
-Primary entry file:
+Read in this order:
 
-- `START-HERE.md`
+1. [`KNOWLEDGE-HUB.md`](KNOWLEDGE-HUB.md) — human-readable navigation across the complete system.
+2. [`method-source-registry.json`](method-source-registry.json) — machine-readable registry of canonical sources and repository roles.
+3. [`governance/REPOSITORY-SYNC-CONTRACT.md`](governance/REPOSITORY-SYNC-CONTRACT.md) — where each type of material belongs.
+4. [`START-HERE.md`](START-HERE.md) — task routing for agents.
+5. [`method/master-method.md`](method/master-method.md) — canonical logic of the method.
 
-Main method document:
-
-- `method/master-method.md`
-
----
-
-## File Map
-
-### Method
-
-- `method/master-method.md` — source of truth for the method.
-- `method/dao-resource-scale.md` — 18 Dao levels, resource stages, interventions, and product logic.
-- `method/dao-level-profile-template.md` — full profile template for describing each Dao level.
-- `method/dao-ladder-research-basis.md` — theoretical and practical basis of the Dao ladder.
-- `method/psychodynamics.md` — planned psychodynamic logic file.
-- `method/wu-xing.md` — planned Wu Xing resource model file.
-
-### Consultations
-
-- `consultations/session-structure.md` — session structure and 4-step work model.
-- `consultations/report-logic.md` — report structure, appendix, downloadable report option.
-- `consultations/express-neurodiagnostics.md` — RF floors and express neurodiagnostic structure.
-- `consultations/neurovegetative-restoration-algorithm.md` — DMNV / Gates restoration algorithm.
-- `consultations/express-homeopathy-diagnosis.md` — express homeopathy diagnosis framing.
-- `consultations/personality-structure-diagnosis.md` — 8 developmental rights and personality structure diagnosis.
-- `consultations/examples/confidence-bach-report-example.md` — real report style example.
-
-### Homeopathy
-
-- `homeopathy/homeopathic-remedy-profile-template.md` — remedy profile template with Saccharum Lactis example.
-- `homeopathy/bach-essence-profile-template.md` — Bach essence profile template with Star of Bethlehem example.
-- `homeopathy/remedy-template.md` — planned generic remedy template.
-- `homeopathy/remedy-index.md` — planned remedy index.
-
-### Books / Source Materials
-
-- `books/README.md` — staging rules for source materials.
-- `books/alchemy-of-the-soul/source-index.md` — source index for Dao Magic / Alchemy of the Soul materials.
-- `books/alchemy-of-the-soul/daoist-alchemy-health-levels.md` — source summary of 18 Dao levels.
-- `books/alchemy-of-the-soul/core-principles.md` — extracted principles from Daoist levels.
-- `books/alchemy-of-the-soul/dao-level-images.md` — additional images for the 18 Dao levels.
-- `books/alchemy-of-the-soul/student-manual-basic-health-levels.md` — student manual for basic health levels.
-- `books/homeotherapy1-life-force/source-summary.md` — summary of uploaded Life Force / systemic homeopathy manual.
-- `books/homeotherapy1-life-force/case-model.md` — case model: state → remedy → change.
-
-### Products
-
-- `products/alchemy-of-the-soul-offer.md` — method offer and archetypal homeopathy positioning.
-- `products/landing-services-integrated-reference.md` — extracted reference from integrated services landing.
-- `products/courses.md` — planned courses file.
-- `products/programs.md` — planned programs file.
-
-### Alchemy / Artefacts / Language
-
-- `alchemy/principles.md` — planned alchemical principles file.
-- `alchemy/archetypes.md` — planned archetype file.
-- `alchemy/rituals.md` — planned ritual file.
-- `artefacts/artifact-logic.md` — planned artefact logic file.
-- `language/ru.md` — planned Russian method language.
-- `language/en.md` — planned English method language.
+Do not begin with free-text search when a canonical route exists in the hub or registry.
 
 ---
 
-## Core Workflow
+## Core Method
 
-Use this repository in this order:
+The central working chain is:
 
-1. Read `START-HERE.md`.
-2. Read `method/master-method.md`.
-3. For levels, read `method/dao-resource-scale.md`.
-4. For reports, read `consultations/report-logic.md` and a relevant example.
-5. For sessions, read `consultations/session-structure.md`.
-6. For remedies, read the relevant homeopathy/Bach template.
-7. For product or offer language, read `products/alchemy-of-the-soul-offer.md`.
+`request → current state → hidden mechanism / stress subpersonality → Dao level → Wu Xing resource → correction → support resonance → action → tracking → next step`
+
+Core rules:
+
+- work from the current state, not from a fixed protocol;
+- choose the resource and intervention appropriate to the current level;
+- review remedy/support relevance as the state changes;
+- separate internal method depth from simple client-facing language;
+- do not promise guaranteed medical, psychological, financial, or spiritual outcomes.
 
 ---
 
-## Relationship To Other Repositories
+## Canonical Product Specifications
 
-- `ai-projects-brain` — Business Builder, agent instructions, project map, pricing, landing templates.
-- `alchemy-method` — method library and source of truth for practice logic.
-- `report` — report templates and public-safe report examples.
-- `dao-usin-bach-report-kit` — specific report kit and diagnostic tools.
-- `artefacts` — artefact and symbolic tool materials.
+- [`products/daoist-alchemy-monthly.md`](products/daoist-alchemy-monthly.md)
+- [`products/psycho-homeopathy-monthly.md`](products/psycho-homeopathy-monthly.md)
+- [`products/business-support-monthly.md`](products/business-support-monthly.md)
+- [`products/client-landing-master-spec.md`](products/client-landing-master-spec.md)
+
+Default monthly format:
+
+- 2 sessions;
+- 4 weeks of support;
+- initial diagnosis;
+- individual support plan;
+- review of changes and support relevance;
+- end-of-cycle decision about the next step.
+
+---
+
+## Main Directories
+
+### `method/`
+Canonical method logic: Dao Resource Ladder, Wu Xing, psychodynamics, level profiles, and master method.
+
+### `consultations/`
+Session structure, diagnostics, report logic, examples, and professional delivery rules.
+
+### `homeopathy/`
+Homeopathic and Bach profile structures. Remedy descriptions do not replace personal verification.
+
+### `products/`
+Canonical offers, monthly program specifications, and landing source copy.
+
+### `books/`
+Indexed source materials and staging copies used to build long-form manuscripts. Book drafts are not method authority when a canonical method file exists.
+
+### `portal/`
+Client portal roadmap and the contract between method knowledge, tests, practitioner review, and client output.
+
+### `governance/`
+Repository boundaries, agent instructions, migration status, conflicts, privacy, claims, and maintenance rules.
+
+---
+
+## Repository Roles
+
+- `alchemy-method` — canonical method and product specifications.
+- `alchemy` — practitioner/client portal, structured case model, tests, tracking, and report workflow.
+- `alchemy_site` — public landing and acquisition interface.
+- `books` — manuscripts, illustrations, PDF and publishing exports.
+- `dao-usin-bach-report-kit` — report rendering and export implementation.
+- `ai-projects-brain` — pricing, packaging, funnel, and business prioritization.
+- `psitrends-work` — Psitrends site/editorial implementation.
+- `artefacts` — supporting symbolic and artifact materials; canonical definitions must be registered here before product use.
+
+See [`governance/REPOSITORY-SYNC-CONTRACT.md`](governance/REPOSITORY-SYNC-CONTRACT.md) for authoritative boundaries.
+
+---
+
+## Governance and Maintenance
+
+- [`governance/MIGRATION-MATRIX.md`](governance/MIGRATION-MATRIX.md) — old source → canonical source → action.
+- [`governance/SOURCE-CONFLICTS.md`](governance/SOURCE-CONFLICTS.md) — unresolved contradictions.
+- [`governance/PUBLIC-PRIVACY-AUDIT.md`](governance/PUBLIC-PRIVACY-AUDIT.md) — public repository privacy controls.
+- [`governance/CLAIMS-AND-DUPLICATES-AUDIT.md`](governance/CLAIMS-AND-DUPLICATES-AUDIT.md) — outdated promises, duplicates, and replacement language.
+- [`governance/RELEASE-CHECKLIST.md`](governance/RELEASE-CHECKLIST.md) — checks before landing, portal, report, or book release.
+
+When adding a source:
+
+1. register it in `method-source-registry.json`;
+2. link it in `KNOWLEDGE-HUB.md`;
+3. classify it as canonical, supporting, historical, or experimental;
+4. record conflicts rather than silently merging them;
+5. update applications and public copy only from canonical sources.
 
 ---
 
 ## Safety
 
-Do not store private client data, secrets, credentials, passwords, tokens, or identifiable client stories here.
+Do not store identifiable client data, private photos, raw health histories, credentials, tokens, or non-anonymized reports in public repositories.
 
-Do not make guaranteed medical or financial claims.
-
-Use anonymized, educational, and method-level materials only.
+Client-facing work must distinguish symbolic/resource assessment from medical or psychological diagnosis and must not claim guaranteed treatment results.
